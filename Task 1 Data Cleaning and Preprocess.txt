@@ -1,0 +1,17 @@
+Task 1: Data Cleaning and Preprocessing
+
+Dataset Used
+Medical Appointment No Shows (from Kaggle)
+
+Steps Performed
+Loaded raw dataset
+Identified and handled missing values using `dropna()` and `fillna()`
+Removed duplicate rows
+Standardized inconsistent text formats (gender, country names)
+Converted all dates to `dd-mm-yyyy` format
+Renamed columns to be lowercase and snake_case
+Ensured correct data types (age: int, date: datetime)
+Saved final cleaned dataset
+
+Tools Used
+Python (Pandas)
